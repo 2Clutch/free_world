@@ -12,7 +12,7 @@ With the listed of students now sorted in ascending order based on their hourly 
 
 ### Time Logging
 
-It took me about 3h15 to complete this project.
+It took me about 4h15 to complete this project.
 
 ### Test URL
 
