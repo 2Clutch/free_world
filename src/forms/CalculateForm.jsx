@@ -29,7 +29,11 @@ const CalculateForm = (props) => {
         setStudentNames(studentNames);
         setSum(sum);
 
-        setResult('Max Earnings of $' + sum + ' with ' + studentNames.join(', '))
+        if (sum === 0) {
+            setResult('Your \'Max Credit Hours Value\' is not high enough. Please try again!');
+        } else {
+            setResult('Max Earnings of $' + sum + ' with ' + studentNames.join(', '));
+        }
     }
 
 
@@ -56,7 +60,6 @@ const CalculateForm = (props) => {
         </div>
 
     )
-
 
 }
 
